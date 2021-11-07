@@ -33,9 +33,3 @@ func TestAVeryBigSum(t *testing.T) {
 		})
 	}
 }
-
-func ExampleAVeryBigSum() {
-	input := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
-	fmt.Println(AVeryBigSum(input))
-	// Output: 5000000015
-}
